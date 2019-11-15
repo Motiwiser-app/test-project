@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding-top: 55px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app-container {
+  max-width: 1200px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+.clickable {
+  cursor: pointer;
+}
+
+
+
+// Cards
+@media (min-width: 576px) {
+  .card-deck .card {
+    margin-bottom: 20px !important;
+  }
+}
+.card {
+  border-radius: 8px !important;
+  overflow: hidden;
+  border: none !important;
+  z-index: 1;
+  transition: box-shadow 0.1s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.06);
+}
+.card img {
+  border-radius: 0;
+  object-fit: cover;
+}
+.card-footer {
+  background-color: transparent !important;
+  border-top: none !important;
+}
+
+//Carousel
+.carousel-item {
+  transition: transform .25s ease-in-out !important;
+}
+
+//Slick Slider
+.slick-slider {
+  overflow: hidden;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding: 0 0.5em;
+}
+.slick-slide {
+  display: inline-block;
+  padding: 0 0.5em;
+}
+
+//Buttons
+.btn-inverse-outline-primary {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+.btn-inverse-outline-primary:hover {
+  color: #007bff !important;
+  background-color: #fff;
+  border-color: #fff;
+}

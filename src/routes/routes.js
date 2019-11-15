@@ -1,0 +1,11 @@
+export const LANDING = '/';
+export const LISTINGS = '/listings';
+export const LISTING_DETAILS = '/listings/:id';
+export const ADD_NEW_LISTING = '/create-new-listing';
+export const SIGN_UP = '/signup';
+export const SIGN_IN = '/signin';
+export const HOME = '/home';
+export const ACCOUNT = '/account';
+export const ADMIN = '/admin';
+export const ADMIN_DETAILS = '/admin/:id';
+export const PASSWORD_FORGET = '/forgot-password';

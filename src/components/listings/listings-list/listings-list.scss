@@ -1,0 +1,85 @@
+.results-number {
+    color: var(--blue);
+}
+
+// LISTINGS ordering filter
+.listings-ordering-filter {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid;
+    border-bottom-color: var(--gray);
+}
+
+.listings-ordering-filter .btn-group-toggle .btn-link {
+    color: var(--gray);
+    border-bottom: 3px solid transparent;
+    border-left: 0;
+    border-right: 0;
+}
+.listings-ordering-filter .btn-group>.btn-group:not(:first-child)>.btn,
+.listings-ordering-filter .btn-group>.btn:not(:first-child),
+.listings-ordering-filter .btn-group>.btn-group:not(:last-child)>.btn,
+.listings-ordering-filter .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 0;
+}
+.listings-ordering-filter .btn-group-toggle .btn-link:hover {
+    text-decoration: none;
+    color: var(--blue);
+}
+.listings-ordering-filter .btn-group-toggle .btn-link.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+
+// LISTING card
+.listings-card {
+    display: block !important;
+    margin: 30px 0;
+    min-height: 300px;
+}
+.listings-card .carousel.slide {
+    width: 30%;
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.listings-card .carousel-inner,
+.listings-card .carousel-fade .carousel-item,
+.listings-card .carousel-fade .carousel-item img {
+    height: 100%;
+}
+.listings-card .card-body {
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
+.listings-card .card-body>.row {
+    height: 100%;
+}
+.listings-card .card-body .listings-item-footer {
+    text-align: right;;
+}
+.listings-card .card-body .profile-img-container {
+    padding-left: 0;
+}
+.listings-card .card-body .profile-img {
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+} 
+
+.listings-card .card-body .make-an-offer {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+.listings-card .card-body .make-an-offer h5 {
+    color: var(--blue);
+}

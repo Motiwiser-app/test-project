@@ -1,0 +1,42 @@
+.make-offer-box-col {
+    width: 400px !important;
+    max-width: 400px !important;
+    position: relative !important;
+}
+.make-offer-box {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 76px;
+    padding: 20px 40px 40px 40px !important;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 64.65%, #FFFFFF 100%);
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.1);
+}
+
+.make-offer-box .jumbotron {
+    margin: 15px 0 0 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(0,161,198,0.07);
+}
+.make-offer-box .jumbotron .row>div:nth-child(1) {
+    padding-right: 0;
+}
+.make-offer-box .gray-title {
+    color: #767676;
+    font-size: 0.95em;
+}
+.make-offer-box .left-bold {
+    font-weight: bold;
+    text-align: left;
+    font-size: 0.95em;
+}
+.make-offer-box .left-blue-bold {
+    font-weight: bold;
+    text-align: left;
+    color: #276EF1;
+    font-size: 0.95em;
+}
+.make-offer-box .blue-bold {
+    font-weight: bold;
+}

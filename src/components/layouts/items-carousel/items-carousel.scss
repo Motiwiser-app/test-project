@@ -1,0 +1,34 @@
+.items-carousel .card-body {
+    padding-top: 0 !important;
+    padding: 15px !important;
+}
+.items-carousel .card-footer {
+    padding: 15px !important;
+}
+
+.items-carousel .badge-pill {
+    padding: 0 !important;
+    margin-right: 0.75rem;
+    background-color: transparent !important;
+    text-transform: uppercase;
+}
+.items-carousel .badge-pill.badge-primary {
+    color: #007bff !important;
+}
+.items-carousel .badge-pill.badge-danger {
+    color: #dc3545 !important;
+}
+.items-carousel .card-title {
+    margin: 0;
+}
+.items-carousel .price-avg h5 {
+    text-align: right;
+    color: #276EF1;
+    margin-bottom: 0;
+}
+.items-carousel .card-text small {
+    color: #767676;
+}
+.items-carousel .card-text .col:nth-child(2) {
+    text-align: right !important;
+}
