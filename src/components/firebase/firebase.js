@@ -11,7 +11,6 @@ const config = {
   storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
   messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
   appId: process.env.REACT_APP_APP_ID,
-  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
 
 app.initializeApp(config);
@@ -26,7 +25,6 @@ class Firebase {
     /* Social & Email Sign In Method Provider */
     this.emailAuthProvider = app.auth.EmailAuthProvider;
     this.googleProvider = new app.auth.GoogleAuthProvider();
-    this.facebookProvider = new app.auth.FacebookAuthProvider();
   }
 
   
@@ -50,9 +48,6 @@ class Firebase {
 
   doSignInWithGoogle = () =>
     this.auth.signInWithPopup(this.googleProvider);
-
-  doSignInWithFacebook = () =>
-    this.auth.signInWithPopup(this.facebookProvider);
   
   doSignOut = () => this.auth.signOut();
 

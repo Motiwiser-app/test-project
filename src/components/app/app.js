@@ -28,8 +28,6 @@ import HomePage from '../home';
 import AccountPage from '../account';
 import AdminPage from '../admin';
 
-import TestDb from '../test-db';
-
  
 import * as ROUTES from '../../routes/routes.js';
 import { withAuthentication } from '../session';
@@ -74,7 +72,6 @@ class App extends React.Component {
           <Route path={ROUTES.HOME} component={HomePage} />
           <Route path={ROUTES.ACCOUNT} component={AccountPage} />
           <Route path={ROUTES.ADMIN} component={AdminPage} />
-          <Route path={ROUTES.TESTDB} component={TestDb} />
         <Footer />
       </Router>
     )

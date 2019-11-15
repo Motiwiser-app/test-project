@@ -46,9 +46,6 @@ const NavigationAuth = ({ authUser }) => (
           <LinkContainer to={ROUTES.ACCOUNT}>
             <Nav.Link>Account</Nav.Link>
           </LinkContainer>
-          <LinkContainer to={ROUTES.TESTDB}>
-            <Nav.Link>TEST-DB</Nav.Link>
-          </LinkContainer>
           {!!authUser.roles[ROLES.ADMIN] && (
             <LinkContainer to={ROUTES.ADMIN}>
               <Nav.Link>Admin</Nav.Link>
@@ -81,9 +78,6 @@ const NavigationNonAuth = () => (
           </LinkContainer>
           <LinkContainer to={ROUTES.SIGN_IN}>
             <Nav.Link>Sign In</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to={ROUTES.TESTDB}>
-            <Nav.Link>TEST-DB</Nav.Link>
           </LinkContainer>
           <LinkContainer to={ROUTES.ADD_NEW_LISTING}>
             <Button variant="success">Post a Project</Button>
