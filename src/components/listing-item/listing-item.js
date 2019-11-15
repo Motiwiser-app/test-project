@@ -6,9 +6,6 @@ import { connect } from 'react-redux';
 import { compose } from 'recompose';
 
 import Search from '../layouts/search';
-import MakeOfferBox from '../layouts/make-offer-box';
-
-//import Locales from '../../utils/locales';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -113,8 +110,6 @@ class ListingItem extends Component {
                                 
 
                             </Col>
-
-                            <MakeOfferBox />
 
                         </Row>
                     )}

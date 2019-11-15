@@ -16,7 +16,7 @@ import * as ROUTES from '../../../routes/routes.js';
 
 const Search = () => (
     <Card className="search-card">
-        <Card.Img className="search-card-img" src={require("./bg8v2_small.jpg")} />
+        <Card.Img className="search-card-img" src={require("./placeholder-img.jpeg")} />
         <Card.ImgOverlay>
         <Container className="app-container">
             <Tabs defaultActiveKey="home">

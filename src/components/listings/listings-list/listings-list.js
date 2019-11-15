@@ -9,9 +9,6 @@ import { LinkContainer } from 'react-router-bootstrap'
 import * as ROUTES from '../../../routes/routes.js';
 
 import Search from '../../layouts/search';
-import SearchFilter from '../../layouts/search-filter';
-
-//import Locales from '../../utils/locales';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -161,7 +158,6 @@ class ListingsList extends Component {
             <Container className="app-container section-wrapper items-carousel">
               <Row className="justify-content-md-center">
         
-                <SearchFilter />
         
                 <Col>
                   <Row>
